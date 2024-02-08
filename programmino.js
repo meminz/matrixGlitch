@@ -39,17 +39,17 @@ function bets3wayBiased(q1,q2,q3){
 function print2Bets(bets, quotes, sommaTot){
 	var output = document.getElementById("output");
 	output.innerHTML = "<p>Unbiased <br>"+
-	"Bet 1 = " + bets[0].toFixed(2) + "<br>Bet 2 = " + bets[1].toFixed(2) +
-	"<br>Win = " + (bets[0]*quotes[0]-sommaTot).toFixed(2) + "<br>Win2 = " +(bets[1]*quotes[1]-sommaTot).toFixed(2) +
+	"Bet 1 = " + bets[0].toFixed(2) + "&emsp; Win = " + (bets[0]*quotes[0]-sommaTot).toFixed(2) + 
+	"<br>Bet 2 = " + bets[1].toFixed(2) + "&emsp; Win = " +(bets[1]*quotes[1]-sommaTot).toFixed(2) +
 	"<br><br>" +
 
 	"Biased (1 vincente)<br>"+
-	"Bet 1 = " + bets[2].toFixed(2) + "<br>Bet2 = " + bets[3].toFixed(2) + 
-	"<br>Win 1 = " + (bets[2]*quotes[0]-sommaTot).toFixed(2) + "<br>Win2 = " +(bets[3]*quotes[1]-sommaTot).toFixed(2) +
+	"Bet 1 = " + bets[2].toFixed(2) + "&emsp; Win = " + (bets[2]*quotes[0]-sommaTot).toFixed(2) +
+	"<br>Bet 2 = " + bets[3].toFixed(2) + "&emsp; Win = " +(bets[3]*quotes[1]-sommaTot).toFixed(2) +
 	"<br><br>" +
 
-	"Biased (2 vincente)<br>Bet 1 = " + bets[4].toFixed(2) + "<br>Bet2 = " + bets[5].toFixed(2) + 
-	"<br>Win 1 = " + (bets[4]*quotes[0]-sommaTot).toFixed(2) + "<br>Win2 = " + (bets[5]*quotes[1]-sommaTot).toFixed(2) +
+	"Biased (2 vincente)<br>Bet 1 = " + bets[4].toFixed(2) + "&emsp; Win = " + (bets[4]*quotes[0]-sommaTot).toFixed(2) +
+	"<br>Bet 2 = " + bets[5].toFixed(2) + "&emsp; Win = " + (bets[5]*quotes[1]-sommaTot).toFixed(2) +
 	"<br><br></p>"
 
 }

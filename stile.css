@@ -1,0 +1,13 @@
+body {
+	background: #110b1f;
+}
+
+label {
+	color: whitesmoke;
+}
+
+p {
+	display: inline-block;
+	text-align: left;
+	color: whitesmoke;
+}
