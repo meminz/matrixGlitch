@@ -57,8 +57,9 @@ function print2Bets(bets, quotes, sommaTot){
 //TODO win 3
 function print3Bets(bets, quotes, sommaTot){
 	var output = document.getElementById("output");
-	output.innerHTML = "<p>Bet 1 = " + bets[0].toFixed(2) + "<br>Bet 2 = " + bets[1].toFixed(2) + "<br>Bet 3 = " + bets[2].toFixed(2) +
-	"<br>Win1 = " + (bets[0]*quotes[0] - sommaTot).toFixed(2) + "<br>Win2 = " +(bets[1]*quotes[1] - sommaTot).toFixed(2) + "<br>Win3 = " +(bets[2]*quotes[2] - sommaTot).toFixed(2) +
+	output.innerHTML = "<p>Bet 1 = " + bets[0].toFixed(2) + "&emsp; Win = " + (bets[0]*quotes[0] - sommaTot).toFixed(2) +
+	"<br>Bet 2 = " + bets[1].toFixed(2) + "&emsp; Win = " +(bets[1]*quotes[1] - sommaTot).toFixed(2) +
+	"<br>Bet 3 = " + bets[2].toFixed(2) + "&emsp; Win = " +(bets[2]*quotes[2] - sommaTot).toFixed(2) +
 	"<br><br>" //+
 
 	// "Biased (1 vincente)<br>"+
