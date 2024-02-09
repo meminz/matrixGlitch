@@ -143,10 +143,7 @@ function calculator(){
 			[(1+q1/q3) / (q2-1), q1/q2]
 			]
 
-		console.log(Ls)
-
 		for(var i = 0; i < 6; i++){
-			console.log(i)
 
 			const bets = bets3way(Ls[i][0],Ls[i][1])
 
